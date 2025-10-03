@@ -1,18 +1,140 @@
-<!DOCTYPE html>
-<html lang="ar">
+<!doctype html>
+<html lang="ar" dir="rtl">
 <head>
-  <meta charset="UTF-8">
-  <title>Said Hamed Portfolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>د. سعيد حامد — محلل بيانات | Portfolio</title>
+  <meta name="description" content="د. سعيد حامد — محلل بيانات و مطور Power BI. سيرة ذاتية، مشاريع، ومعلومات للتواصل.">
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-  <div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%;
-   padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
-   border-radius: 8px; will-change: transform;">
-    <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
-      src="https://www.canva.com/design/DAGcxoxKBbs/uLQSLkPI2Ta0LpLvGsLO9Q/view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
-    </iframe>
-  </div>
-  <a href="https://www.canva.com/design/DAGcxoxKBbs/uLQSLkPI2Ta0LpLvGsLO9Q/view?utm_content=DAGcxoxKBbs&utm_campaign=designshare&utm_medium=embeds&utm_source=link" 
-     target="_blank" rel="noopener">Said Hamed Portfolio</a> بواسطة سعيد حامد
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <h1>د. سعيد حامد</h1>
+        <p class="role">Data Analyst • Power BI Developer • DBA Researcher</p>
+      </div>
+      <nav class="nav">
+        <button class="nav-toggle" id="navToggle">قائمة ☰</button>
+        <ul class="nav-list" id="navList">
+          <li><a href="#about">من أنا</a></li>
+          <li><a href="#projects">المشاريع</a></li>
+          <li><a href="#skills">المهارات</a></li>
+          <li><a href="#experience">الخبرات</a></li>
+          <li><a href="#contact">تواصل</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero container" id="hero">
+      <div class="hero-left">
+        <h2>أحوّل البيانات المعقدة إلى رؤى قابلة للتنفيذ</h2>
+        <p>محلل بيانات مع خبرة واسعة في Power BI وSQL وDAX. حاصل على ماجستير وباحث دكتوراه في التمويل والاستثمار، وحاصل على شهادة PL-300.</p>
+        <div class="cta">
+          <a class="btn" href="mailto:saidhamed5000@gmail.com">راسلني</a>
+          <a class="btn ghost" href="https://github.com/saidhamed5000" target="_blank" rel="noreferrer">ملفي على GitHub</a>
+        </div>
+      </div>
+      <div class="hero-right">
+        <div class="card profile-card">
+          <div class="avatar" aria-hidden="true">د</div>
+          <div class="info">
+            <h3>د. سعيد حامد</h3>
+            <p>ماجستير • باحث دكتوراه (تمويل واستثمار) • PL-300</p>
+            <ul class="quick-info">
+              <li><strong>الموقع:</strong> مصر</li>
+              <li><strong>البريد:</strong> saidhamed5000@gmail.com</li>
+              <li><strong>الهاتف:</strong> +20 111 917 5150</li>
+            </ul>
+            <a class="download" href="CV.pdf" target="_blank">تحميل السيرة (أضف CV.pdf إلى الريبو)</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="container section">
+      <h3>نبذة عني</h3>
+      <p>أعمل في تحويل البيانات إلى قرارات تجارية مدعومة بالحقائق. خبرة في تصميم لوحات تحكم تفاعلية، نمذجة البيانات، وتحسين تقارير الأعمال باستخدام Power BI وSSRS.</p>
+    </section>
+
+    <section id="projects" class="container section">
+      <h3>المشاريع</h3>
+      <div class="grid projects-grid">
+        <article class="project-card">
+          <h4>Super Store Sales Dashboard</h4>
+          <p>لوحة تفاعلية للمبيعات مع مؤشرات الأداء والتنبؤات.</p>
+          <a href="https://github.com/saidhamed5000/Super-Store-Sales-Dashboard.git" target="_blank">View on GitHub</a>
+        </article>
+        <article class="project-card">
+          <h4>Credit Card Transaction Report</h4>
+          <p>تقارير تفصيلية عن المعاملات وبطاقة العميل.</p>
+          <a href="https://github.com/saidhamed5000/Credit-Card-Transaction-and-Customer-Report.git" target="_blank">View on GitHub</a>
+        </article>
+        <article class="project-card">
+          <h4>E-Commerce Churn Prediction</h4>
+          <p>نموذج تنبؤ بـCustomer Churn باستخدام تقنيات ML.</p>
+          <a href="https://github.com/saidhamed5000/E-Commerce-Customer-Churn-Analysis-and-Prediction.git" target="_blank">View on GitHub</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="skills" class="container section">
+      <h3>المهارات</h3>
+      <div class="skills-grid">
+        <div class="skill">Power BI</div>
+        <div class="skill">SQL</div>
+        <div class="skill">DAX</div>
+        <div class="skill">Power Query</div>
+        <div class="skill">Excel (Pivot)</div>
+        <div class="skill">SSRS</div>
+      </div>
+    </section>
+
+    <section id="experience" class="container section">
+      <h3>الخبرات العملية</h3>
+      <div class="exp-list">
+        <div class="exp-item">
+          <h4>Postmaster — Egypt Post (2013 — Present)</h4>
+          <p>قيادة عمليات الفرع وإعداد تقارير الأداء والتحليل المالي.</p>
+        </div>
+        <div class="exp-item">
+          <h4>Freelance Data Analyst (2022 — Present)</h4>
+          <p>تطوير لوحات تحكم وتقارير لعملاء في قطاعات التجزئة والمالية.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="container section">
+      <h3>تواصل معي</h3>
+      <p>للمشاريع أو فرص العمل، راسلني عبر البريد أو أرسل رسالة من النموذج بالأسفل.</p>
+      <div class="contact-grid">
+        <div class="contact-card">
+          <strong>البريد:</strong> <a href="mailto:saidhamed5000@gmail.com">saidhamed5000@gmail.com</a><br>
+          <strong>الهاتف:</strong> +20 111 917 5150<br>
+          <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/said-hamed-39a541291" target="_blank">profile</a>
+        </div>
+        <form class="contact-form" action="mailto:saidhamed5000@gmail.com" method="post" enctype="text/plain">
+          <label>الاسم</label>
+          <input type="text" name="name" required>
+          <label>البريد</label>
+          <input type="email" name="email" required>
+          <label>الرسالة</label>
+          <textarea name="message" rows="4" required></textarea>
+          <button class="btn" type="submit">إرسال</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2025 د. سعيد حامد — Data Analytics & BI</p>
+    </div>
+  </footer>
+
+  <script>document.querySelector('.site-footer p').textContent = '© ' + new Date().getFullYear() + ' د. سعيد حامد — Data Analytics & BI';</script>
+  <script src="js/script.js"></script>
 </body>
 </html>
